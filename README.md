@@ -1,9 +1,11 @@
 # Process Dynamics and Control in MATLAB
 This course focuses on a complete start to finish process of physics-based modeling, data driven methods, and controller design. Although some knowledge of computer programming is required, students are led through several introductory topics that develop an understanding of numerical methods in process control.
-![course overview](./pdc_overview.png)
+![course overview](./images/pdc_overview.png)
 This course focuses on methods that are used in practice for simple or complex systems. It is divided into three main parts including (1) data driven modeling and controller development, (2) physics-based modeling and controller development, and (3) advanced controls with optimization. Example problems are provided throughout in the MATLAB programming language.
 ## Professor
-John Hedengren leads the [BYU PRISM](https://apm.byu.edu/) group with interests in combining data science, optimization, and automation with current projects in hybrid nuclear energy system design and unmanned aerial vehicle photogrammetry. He earned a doctoral degree at the University of Texas at Austin and worked 5 years with ExxonMobil Chemical prior to joining BYU in 2011.
+![John Hedengren](./images/hedengren.png) [John Hedengren](https://www.linkedin.com/in/hedengren/) leads the [BYU PRISM](https://apm.byu.edu/) group with interests in combining data science, optimization, and automation with current projects in hybrid nuclear energy system design and unmanned aerial vehicle photogrammetry. He earned a doctoral degree at the University of Texas at Austin and worked 5 years with ExxonMobil Chemical prior to joining BYU in 2011.
+## Teaching Assistant
+![Joshua Hammond](./images/hammond.png) [Joshua Hammond](https://www.linkedin.com/in/j-edward-hammond) is an experienced researcher in Process Systems Engineering leveraging Data Science, Machine Learning, Optimization, and domain knowledge to achieve optimal solutions. Joshua developed the MATLAB dynamics and control course from the [Python version](https://apmonitor.com/pdc) with technical support from [Colin Anderson](https://www.linkedin.com/in/colin-r-anderson/) and [Nathanael Nelson](https://www.linkedin.com/in/nathanael-martin-nelson-eit-a3183598/).
 ## Course Objectives
 It is the intent of this course to help the student to:
 1. Understand and be able to describe quantitatively the dynamic behavior of process systems.
@@ -14,62 +16,63 @@ It is the intent of this course to help the student to:
 6. Gain a brief exposure to advanced control strategies.
 
 ## Course Schedule
-![Github Logo](githubLogo.png) [Download the Repository on Github]
-![Mathworks Logo](githubLogo.png) [View the Repository on MATLAB Drive]
-| Class | Topic                                                                          | Assignment                                    | TCLab Activity                               |
-|-------|--------------------------------------------------------------------------------|-----------------------------------------------|----------------------------------------------|
-| 1     | [Course Introduction]()                                                        | [Begin MATLAB  ]()                            | [Begin MATLAB (Continued)]()                 |
-| 2     | [Simulate Dynamics in MATLAB]()                                                | [Simulate HIV Infection]()                    | [Step Test Simulation]()                     |
-| 3     | [Physics-based Dynamic Modeling]()                                             | [Derive Balance Equations]()                  | [Convective Heat Transfer]()                 |
-| 4     | [Transient Balance Equations]()                                                | [Tank Blending Simulation]()                  | [Radiative Heat Transfer]()                  |
-| 5     | [Linearize Balance Equations]()                                                | [Linearize Differential Equations]()          | [Linearize Energy Balance]()                 |
-| 6     | [First-Order Linear Dynamics with Dead Time using Graphical Fitting Methods]() | [Graphical FOPDT Fit]()                       | [TCLab Graphical FOPDT Fit]()                |
-| 7     | [Optimize Model Parameter Fit]()                                               | [Parameter Regression]()                      | [Regression FOPDT]()                         |
-| 8     | [Exam Review on Modeling and Dynamics]()                                       | [Practice Exam]()                             |                                              |
-| 9     | Exam on Dynamic Modeling                                                       |                                               |                                              |
-|       |                                                                                |                                               |                                              |
-| Class | Topic                                                                          | Assignment                                    | TCLab Activity                               |
-| 10    | [Control Design]()                                                             | [Controller Design Exercise]()                | [TCLab Controller Design]()                  |
-| 11    | [Proportional-only (P-only) Control]()                                         | [Tank Level]()                                | [P-only Control]()                           |
-| 12    | [Proportional Integral (PI) Control]()                                         | [Auto Cruise Control]()                       | [PI Control]()                               |
-| 13    | [Proportional Integral Derivative (PID) Control]()                             | [Blending Control]()                          | [PID Control]()                              |
-| 14    | [Case Study: Level Control]()                                                  | [Level Control]()                             | [PI Control Tuning]()[(Simulink)](           |
-| 15    | [Case Study: Nonlinear System Control]()                                       | [Exothermic Reactor]()                        | [PID Control Tuning]()[(Simulink)]()         |
-| 16    | [Case Study: Disturbances]()                                                   | [Type-I Diabetic Blood Glucose]()             | [PID with Feedforward]()                     |
-| 17    | [Valve Design Principles]()                                                    | [Valve Design Exercise]()                     | [Heater Actuator]()                          |
-| 18    | [Sensors and Data Acquisition]()                                               | [Sensor Design Exercise]()                    | [Temperature Sensor]()                       |
-| 19    | [Exam Review on Sensors, Actuators, and Controllers]()                         | [Practice Exam]()                             |                                              |
-| 20    | Exam on Sensors, Actuators, and Controllers                                    |                                               |                                              |
-|       |                                                                                |                                               |                                              |
-| Class | Topic                                                                          | Assignment                                    | TCLab Activity                               |
-| 21    | [Single Heater Modeling]()                                                     | [TCLab Project Overview]                      | [Dual Heater Modeling]()                     |
-| 22    | [Single Heater Regression]()[Simulink]()                                       |                                               | [Dual Heater Regression 2]()                 |
-| 23    | [Single Heater Control]()                                                      | [2 Page Report]()                             | [Dual Heater Control 2]()                    |
-|       |                                                                                |                                               |                                              |
-| 24    | [Laplace Transforms]()                                                         | [Laplace Transform Applications]()            | [Impulse Response]()                         |
-| 25    | [Transfer Functions]()                                                         | [Block Diagrams with Transfer Functions]()    | [Block Diagram]()                            |
-| 26    | [State Space Models]()                                                         | [Reactor State Space]()                       | [State Space Simulation]()                   |
-| 27    | [Second Order Systems with Graphical Fitting]()                                | [Second Order Estimation: Graphical]()        | [On/Off Control]() [(Simulink)]()            |
-| 28    | [Second Order Optimization]()                                                  | [Second Order Estimation: Optimization]()     | [Second Order Regression]()                  |
-| 29    | [Simulation of FOPDT, SOPDT, and Higher Order Systems]()                       | [Distillation Control]()                      | [Higher Order Regression]()                  |
-| 30    | [Stability Analysis]()                                                         | [Controller Stability Limits]()               | [P-Only Stability Analysis]()                |
-| 31    | [Cascade Control and Feedforward Control]()                                    | [Cascade or Feedforward Control Design]()     | [Cascade Control]()                          |
-| 32    | [Exam Review on Dynamic Systems Analysis]()                                    | [Practice Exam]()                             |                                              |
-| 33    | Exam on Dynamic Systems Analysis                                               |                                               |                                              |
-|       |                                                                                |                                               |                                              |
-| Class | Topic                                                                          | Assignment                                    | TCLab Activity                               |
-| 34    | [Control Project Introduction]()                                               | [Control Project]()                           |                                              |
-| 35    | [Optimization Introduction]()                                                  | [Control Project]()                           |                                              |
-| 36    | [Linear Programming]()                                                         | [Control Project]()                           |                                              |
-| 37    | [Scheduling Optimization]()                                                    | [Control Project]()                           |                                              |
-| 38    | [Nonlinear Programming]()                                                      | [Control Project]()                           |                                              |
-| 39    | [Machine Learning Classification]()                                            | [Control Project]()                           | [Extra Credit: 12 Data Science Modules]()    |
-| 40    | [Model Predictive Control]()                                                   | [Control Project]()                           | [Extra Credit: 8 Advanced Control Modules]() |
-| 41    | [Project Help Session]()                                                       | [Control Project]()                           |                                              |
-| 42    | [Final Exam Review]()                                                          | [Practice Exam]()                             |                                              |
-| Final | [Project Report (2 pages) and Presentation (5 min) Final Exam]()               |                                               |                                              |
 
-# Todo
-* Static links for each live script filled in
-* links to repo and matlab drive
-* images
+| Class                                                 | Topic                                                                          | Assignment                                  | TCLab Activity                               |
+|-------------------------------------------------------|--------------------------------------------------------------------------------|---------------------------------------------|----------------------------------------------|
+| [L01](https://github.com/APMonitor/mdc/tree/main/L01) | Course Introduction                                                            | Begin MATLAB                                | Begin MATLAB (Continued)                     |
+| [L02](https://github.com/APMonitor/mdc/tree/main/L02) | Simulate Dynamics in MATLAB                                                    | Simulate HIV Infection                      | Step Test Simulation                         |
+| [L03](https://github.com/APMonitor/mdc/tree/main/L03) | Physics-based Dynamic Modeling                                                 | Derive Balance Equations                    | Convective Heat Transfer                     |
+| [L04](https://github.com/APMonitor/mdc/tree/main/L04) | Transient Balance Equations                                                    | Tank Blending Simulation                    | Radiative Heat Transfer                      |
+| [L05](https://github.com/APMonitor/mdc/tree/main/L05) | Linearize Balance Equations                                                    | Linearize Differential Equations            | Linearize Energy Balance                     |
+| [L06](https://github.com/APMonitor/mdc/tree/main/L06) | First-Order Linear Dynamics with Dead Time using Graphical Fitting Methods     | Graphical FOPDT Fit                         | TCLab Graphical FOPDT Fit                    |
+| [L07](https://github.com/APMonitor/mdc/tree/main/L07) | Optimize Model Parameter Fit                                                   | Parameter Regression                        | Regression FOPDT                             |
+| 8                                                     | Exam Review on Modeling and Dynamics                                           | Practice Exam                               |                                              |
+| 9                                                     | Exam on Dynamic Modeling                                                       |                                             |                                              |
+|                                                       |                                                                                |                                             |                                              |
+| Class                                                 | Topic                                                                          | Assignment                                  | TCLab Activity                               |
+| [L10](https://github.com/APMonitor/mdc/tree/main/L10) | Control Design                                                                 | Controller Design Exercise                  | TCLab Controller Design                      |
+| [L11](https://github.com/APMonitor/mdc/tree/main/L11) | Proportional-only (P-only) Control                                             | Tank Level                                  | P-only Control                               |
+| [L12](https://github.com/APMonitor/mdc/tree/main/L12) | Proportional Integral (PI) Control                                             | Auto Cruise Control                         | PI Control                                   |
+| [L13](https://github.com/APMonitor/mdc/tree/main/L13) | Proportional Integral Derivative (PID) Control                                 | Blending Control                            | PID Control                                  |
+| [L14](https://github.com/APMonitor/mdc/tree/main/L14) | Case Study: Level Control                                                      | Level Control                               | PI Control Tuning                            |
+| [L15](https://github.com/APMonitor/mdc/tree/main/L15) | Case Study: Nonlinear System Control                                           | Exothermic Reactor                          | PID Control Tuning                           |
+| [L16](https://github.com/APMonitor/mdc/tree/main/L16) | Case Study: Disturbances                                                       | Type-I Diabetic Blood Glucose               | PID with Feedforward                         |
+| [L17](https://github.com/APMonitor/mdc/tree/main/L17) | Valve Design Principles                                                        | Valve Design Exercise                       | Heater Actuator                              |
+| [L18](https://github.com/APMonitor/mdc/tree/main/L18) | Sensors and Data Acquisition                                                   | Sensor Design Exercise                      | Temperature Sensor                           |
+| 19                                                    | Exam Review on Sensors, Actuators, and Controllers                             | Practice Exam                               |                                              |
+| 20                                                    | Exam on Sensors, Actuators, and Controllers                                    |                                             |                                              |
+|                                                       |                                                                                |                                             |                                              |
+| Class                                                 | Topic                                                                          | Assignment                                  | TCLab Activity                               |
+| [L21](https://github.com/APMonitor/mdc/tree/main/L21) | Single Heater Modeling                                                         | TCLab Project Overview]                     | Dual Heater Modeling 2                       |
+| [L22](https://github.com/APMonitor/mdc/tree/main/L22) | Single Heater Regression                                                       |                                             | Dual Heater Regression 2                     |
+| [L23](https://github.com/APMonitor/mdc/tree/main/L23) | Single Heater Control                                                          | 2 Page Report                               | Dual Heater Control 2                        |
+|                                                       |                                                                                |                                             |                                              |
+| [L24](https://github.com/APMonitor/mdc/tree/main/L24) | Laplace Transforms                                                             | Laplace Transform Applications              | Impulse Response                             |
+| [L25](https://github.com/APMonitor/mdc/tree/main/L25) | Transfer Functions                                                             | Block Diagrams with Transfer Functions      | Block Diagram                                |
+| [L26](https://github.com/APMonitor/mdc/tree/main/L26) | State Space Models                                                             | Reactor State Space                         | State Space Simulation                       |
+| [L27](https://github.com/APMonitor/mdc/tree/main/L27) | Second Order Systems with Graphical Fitting                                    | Second Order Estimation: Graphical          | On/Off Control                               |
+| [L28](https://github.com/APMonitor/mdc/tree/main/L28) | Second Order Optimization                                                      | Second Order Estimation: Optimization       | Second Order Regression                      |
+| [L29](https://github.com/APMonitor/mdc/tree/main/L29) | Simulation of FOPDT, SOPDT, and Higher Order Systems                           | Distillation Control                        | Higher Order Regression                      |
+| [L30](https://github.com/APMonitor/mdc/tree/main/L30) | Stability Analysis                                                             | Controller Stability Limits                 | P-Only Stability Analysis                    |
+| [L31](https://github.com/APMonitor/mdc/tree/main/L31) | Cascade Control and Feedforward Control                                        | Cascade or Feedforward Control Design       | Cascade Control                              |
+| 32                                                    | Exam Review on Dynamic Systems Analysis                                        | Practice Exam                               |                                              |
+| 33                                                    | Exam on Dynamic Systems Analysis                                               |                                             |                                              |
+|                                                       |                                                                                |                                             |                                              |
+| Class                                                 | Topic                                                                          | Assignment                                  | TCLab Activity                               |
+| [L31](https://github.com/APMonitor/mdc/tree/main/L31) | Control Project Introduction                                                   | Control Project                             |                                              |
+| [L32](https://github.com/APMonitor/mdc/tree/main/L32) | Optimization Introduction                                                      | Control Project                             |                                              |
+| [L33](https://github.com/APMonitor/mdc/tree/main/L33) | Linear Programming                                                             | Control Project                             |                                              |
+| [L34](https://github.com/APMonitor/mdc/tree/main/L34) | Scheduling Optimization                                                        | Control Project                             |                                              |
+| [L35](https://github.com/APMonitor/mdc/tree/main/L35) | Nonlinear Programming                                                          | Control Project                             |                                              |
+| [L36](https://github.com/APMonitor/mdc/tree/main/L36) | Machine Learning Classification                                                | Control Project                             |                                              |
+| [L37](https://github.com/APMonitor/mdc/tree/main/L37) | Model Predictive Control                                                       | Control Project                             |                                              |
+| 41                                                    | Project Help Session                                                           | Control Project                             |                                              |
+| 42                                                    | Final Exam Review                                                              | Practice Exam                               |                                              |
+| Final                                                 | Project Report (2 pages) and Presentation (5 min) Final Exam                   |                                             |                                              |
+
+![Github Logo](./images/github.png) [MATLAB](https://github.com/APMonitor/mdc) and [Python](https://github.com/APMonitor/pdc) Repository on Github
+![Github Logo](./images/apm.png) [Course Web-site](https://apmonitor.com/pdc)
+![Mathworks Logo](./images/matlab.png) [View the Repository on MATLAB Drive (coming soon)]
+![TCLab](./images/tclab.png) [Temperature Control Lab](https://apmonitor.com/heat.htm)
+
+The materials in this archive are released under the [MIT License](./LICENSE). The financial assistance of MathWorks is gratefully acknowledged with technical assistance of [Melda Ulusoy](https://www.linkedin.com/in/melda-ulusoy-323bb670/) and others at MathWorks.
