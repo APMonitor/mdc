@@ -76,7 +76,7 @@ It is the intent of this course to help the student to:
 
 ![Github Logo](./images/github.png) [MATLAB](https://github.com/APMonitor/mdc) and [Python](https://github.com/APMonitor/pdc) Repository on Github
 
-![Github Logo](./images/apm.png) [Course Web-site](https://apmonitor.com/pdc)
+![Github Logo](./images/apm.png) [Course Web-site](https://apmonitor.com/pdc) and [Schedule](https://apmonitor.com/pdc/index.php/Main/CourseSchedule)
 
 ![Mathworks Logo](./images/matlab.png) View the Repository on MATLAB Drive (coming soon)
 
