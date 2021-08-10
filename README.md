@@ -3,9 +3,13 @@ This course focuses on a complete start to finish process of physics-based model
 ![course overview](./images/pdc_overview.png)
 This course focuses on methods that are used in practice for simple or complex systems. It is divided into three main parts including (1) data driven modeling and controller development, (2) physics-based modeling and controller development, and (3) advanced controls with optimization. Example problems are provided throughout in the MATLAB programming language.
 ## Professor
-![John Hedengren](./images/hedengren.jpg) [John Hedengren](https://www.linkedin.com/in/hedengren/) leads the [BYU PRISM](https://apm.byu.edu/) group with interests in combining data science, optimization, and automation with current projects in hybrid nuclear energy system design and unmanned aerial vehicle photogrammetry. He earned a doctoral degree at the University of Texas at Austin and worked 5 years with ExxonMobil Chemical prior to joining BYU in 2011.
+![John Hedengren](./images/hedengren.jpg)
+
+[John Hedengren](https://www.linkedin.com/in/hedengren/) leads the [BYU PRISM](https://apm.byu.edu/) group with interests in combining data science, optimization, and automation with current projects in hybrid nuclear energy system design and unmanned aerial vehicle photogrammetry. He earned a doctoral degree at the University of Texas at Austin and worked 5 years with ExxonMobil Chemical prior to joining BYU in 2011.
 ## Teaching Assistant
-![Joshua Hammond](./images/hammond.jpg) [Joshua Hammond](https://www.linkedin.com/in/j-edward-hammond) is an experienced researcher in Process Systems Engineering leveraging Data Science, Machine Learning, Optimization, and domain knowledge to achieve optimal solutions. Joshua developed the MATLAB dynamics and control course from the [Python version](https://apmonitor.com/pdc) with technical support from [Colin Anderson](https://www.linkedin.com/in/colin-r-anderson/) and [Nathanael Nelson](https://www.linkedin.com/in/nathanael-martin-nelson-eit-a3183598/).
+![Joshua Hammond](./images/hammond.jpg)
+
+[Joshua Hammond](https://www.linkedin.com/in/j-edward-hammond) is an experienced researcher in Process Systems Engineering leveraging Data Science, Machine Learning, Optimization, and domain knowledge to achieve optimal solutions. Joshua developed the MATLAB dynamics and control course from the [Python version](https://apmonitor.com/pdc) with technical support from [Colin Anderson](https://www.linkedin.com/in/colin-r-anderson/) and [Nathanael Nelson](https://www.linkedin.com/in/nathanael-martin-nelson-eit-a3183598/).
 ## Course Objectives
 It is the intent of this course to help the student to:
 1. Understand and be able to describe quantitatively the dynamic behavior of process systems.
