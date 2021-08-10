@@ -1,5 +1,5 @@
 # Process Dynamics and Control in MATLAB
-This course focuses on a complete start to finish process of physics-based modeling, data driven methods, and controller design. Although some knowledge of computer programming is required, students are led through several introductory topics that develop an understanding of numerical methods in process control.
+This course focuses on a complete start to finish process of physics-based modeling, data driven methods, and controller design. Although some knowledge of computer programming is required, students are led through several introductory topics that develop an understanding of numerical methods in process control. Students should start with the [Begin MATLAB Short Course](https://github.com/APMonitor/begin_matlab) that takes 2-3 hours to complete.
 ![course overview](./images/pdc_overview.png)
 This course focuses on methods that are used in practice for simple or complex systems. It is divided into three main parts including (1) data driven modeling and controller development, (2) physics-based modeling and controller development, and (3) advanced controls with optimization. Example problems are provided throughout in the MATLAB programming language.
 ## Professor
@@ -9,7 +9,7 @@ This course focuses on methods that are used in practice for simple or complex s
 ## Teaching Assistant
 ![Joshua Hammond](./images/hammond.jpg)
 
-[Joshua Hammond](https://www.linkedin.com/in/j-edward-hammond) is an experienced researcher in Process Systems Engineering leveraging Data Science, Machine Learning, Optimization, and domain knowledge to achieve optimal solutions. Joshua developed the MATLAB dynamics and control course from the [Python version](https://apmonitor.com/pdc) with technical support from [Colin Anderson](https://www.linkedin.com/in/colin-r-anderson/) and [Nathanael Nelson](https://www.linkedin.com/in/nathanael-martin-nelson-eit-a3183598/).
+[Joshua Hammond](https://www.linkedin.com/in/j-edward-hammond) is an experienced researcher in Process Systems Engineering leveraging Data Science, Machine Learning, Optimization, and domain knowledge to achieve optimal solutions. Joshua developed the MATLAB dynamics and control course from the [Python version](https://apmonitor.com/pdc) with technical support from [Colin Anderson](https://www.linkedin.com/in/colin-r-anderson/) and [Nathanael Nelson](https://www.linkedin.com/in/nathanael-martin-nelson-eit-a3183598/). Assignment solution videos are published to the [PSE Horizon](https://www.youtube.com/channel/UCGsMPf9oCqIeuOtZEKAxaqg) YouTube Channel.
 ## Course Objectives
 It is the intent of this course to help the student to:
 1. Understand and be able to describe quantitatively the dynamic behavior of process systems.
