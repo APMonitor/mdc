@@ -78,7 +78,7 @@ It is the intent of this course to help the student to:
 
 ![Github Logo](./images/apm.png) [Course Web-site](https://apmonitor.com/pdc) and [Schedule](https://apmonitor.com/pdc/index.php/Main/CourseSchedule)
 
-![Mathworks Logo](./images/matlab.png) View the Repository on MATLAB Drive (coming soon)
+![Mathworks Logo](./images/matlab.png) View the [Repository on MATLAB Drive](https://drive.matlab.com/sharing/ac9d959a-e586-4478-ad56-5078ed578753)
 
 ![TCLab](./images/tclab.png) [Temperature Control Lab](https://apmonitor.com/heat.htm)
 
