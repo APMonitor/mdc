@@ -1,0 +1,24 @@
+Parameters
+  m1 = 10
+  m2 = 1
+  u = 0 ! degree of freedom for optimizer
+  final ! loaded in pendulum.csv
+  
+Variables
+  y = -1
+  v = 0
+  theta = 0
+  q = 0
+  
+Intermediates
+  eps = m2 / (m1+m2)  
+
+Equations
+  $y = v
+  $v = eps * theta + u
+  $theta = q
+  $q = -theta - u
+  
+  minimize final * (y^2 + v^2 + theta^2 + q^2)
+  minimize 0.001 * u^2
+  
