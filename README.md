@@ -9,7 +9,7 @@ This course focuses on methods that are used in practice for simple or complex s
 ## Teaching Assistant
 ![Joshua Hammond](./images/hammond.jpg)
 
-[Joshua Hammond](https://www.linkedin.com/in/j-edward-hammond) is an experienced researcher in Process Systems Engineering leveraging Data Science, Machine Learning, Optimization, and domain knowledge to achieve optimal solutions. Joshua developed the MATLAB dynamics and control course from the [Python version](https://apmonitor.com/pdc) with technical support from [Colin Anderson](https://www.linkedin.com/in/colin-r-anderson/) and [Nathanael Nelson](https://www.linkedin.com/in/nathanael-martin-nelson-eit-a3183598/). Assignment solution videos are published to the [PSE Horizon](https://www.youtube.com/channel/UCGsMPf9oCqIeuOtZEKAxaqg) YouTube Channel.
+[Joshua Hammond](https://www.linkedin.com/in/j-edward-hammond) is an experienced researcher in Process Systems Engineering leveraging Data Science, Machine Learning, Optimization, and domain knowledge to achieve optimal solutions. Joshua developed the MATLAB dynamics and control course from the [Python version](https://apmonitor.com/pdc) with technical support from [Colin Anderson](https://www.linkedin.com/in/colin-r-anderson/) and [Nathanael Nelson](https://www.linkedin.com/in/nathanael-martin-nelson-eit-a3183598/). Assignment solution videos are published to the [Horizon PSE](https://www.youtube.com/channel/UCGsMPf9oCqIeuOtZEKAxaqg) YouTube Channel.
 ## Course Objectives
 It is the intent of this course to help the student to:
 1. Understand and be able to describe quantitatively the dynamic behavior of process systems.
@@ -47,7 +47,7 @@ It is the intent of this course to help the student to:
 | L20                                                   | Exam on Sensors, Actuators, and Controllers                                    |                                             |                                              |
 |                                                       |                                                                                |                                             |                                              |
 | Class                                                 | Topic                                                                          | Assignment                                  | TCLab Activity                               |
-| [L21](https://github.com/APMonitor/mdc/tree/main/L21) | Single Heater Modeling                                                         | TCLab Project Overview]                     | Dual Heater Modeling 2                       |
+| [L21](https://github.com/APMonitor/mdc/tree/main/L21) | Single Heater Modeling | [TCLab Project Overview](https://github.com/APMonitor/mdc/tree/main/L21/Arduino_lab_rubric.pdf)     | Dual Heater Modeling 2                       |
 | [L22](https://github.com/APMonitor/mdc/tree/main/L22) | Single Heater Regression                                                       |                                             | Dual Heater Regression 2                     |
 | [L23](https://github.com/APMonitor/mdc/tree/main/L23) | Single Heater Control                                                          | 2 Page Report                               | Dual Heater Control 2                        |
 |                                                       |                                                                                |                                             |                                              |
