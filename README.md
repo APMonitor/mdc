@@ -1,7 +1,7 @@
 # Process Dynamics and Control in MATLAB
 This course focuses on a complete start to finish process of physics-based modeling, data driven methods, and controller design. Although some knowledge of computer programming is required, students are led through several introductory topics that develop an understanding of numerical methods in process control. Students should start with the [Begin MATLAB Short Course](https://github.com/APMonitor/begin_matlab) that takes 2-3 hours to complete.
 
-![webinar](./images/webinar.png)
+<a href="https://youtu.be/SAjFN8mnFCU"><img src="./images/webinar.png" alt="course overview" width="400px"/></a>
 
 ![YouTube Logo](./images/youtube.png) [View MathWorks Webinar](https://youtu.be/SAjFN8mnFCU)
 
@@ -25,7 +25,7 @@ It is the intent of this course to help the student to:
 
 ## Course Schedule
 
-<img src="./images/pdc_overview.png" alt="course overview" width="60%"/>
+<img src="./images/pdc_overview.png" alt="course overview" width="400px"/>
 
 | Class                                                 | Topic                                                                          | Assignment                                  | TCLab Activity                               |
 |-------------------------------------------------------|--------------------------------------------------------------------------------|---------------------------------------------|----------------------------------------------|
