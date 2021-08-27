@@ -3,7 +3,7 @@ This course focuses on a complete start to finish process of physics-based model
 
 ![webinar](./images/webinar.png)
 
-[View MathWorks Webinar (YouTube)](https://youtu.be/SAjFN8mnFCU)
+![YouTube Logo](./images/youtube.png) [View MathWorks Webinar](https://youtu.be/SAjFN8mnFCU)
 
 This course focuses on methods that are used in practice for simple or complex systems. It is divided into three main parts including (1) data driven modeling and controller development, (2) physics-based modeling and controller development, and (3) advanced controls with optimization. Example problems are provided throughout in the MATLAB programming language.
 ## Professor
