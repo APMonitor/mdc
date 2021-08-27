@@ -25,7 +25,7 @@ It is the intent of this course to help the student to:
 
 ## Course Schedule
 
-![course overview](./images/pdc_overview.png)
+<img src="./images/pdc_overview.png" alt="course overview" width="60%"/>
 
 | Class                                                 | Topic                                                                          | Assignment                                  | TCLab Activity                               |
 |-------------------------------------------------------|--------------------------------------------------------------------------------|---------------------------------------------|----------------------------------------------|
