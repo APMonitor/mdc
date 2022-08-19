@@ -6,6 +6,9 @@ This course focuses on a complete start to finish process of physics-based model
 ![YouTube Logo](./images/youtube.png) [View MathWorks Webinar](https://youtu.be/SAjFN8mnFCU)
 
 This course focuses on methods that are used in practice for simple or complex systems. It is divided into three main parts including (1) data driven modeling and controller development, (2) physics-based modeling and controller development, and (3) advanced controls with optimization. Example problems are provided throughout in the MATLAB programming language.
+
+[![View Process Dynamics and Control Course on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/116500-process-dynamics-and-control-course)
+
 ## Professor
 ![John Hedengren](./images/hedengren.jpg)
 
